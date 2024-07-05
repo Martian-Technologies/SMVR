@@ -1,0 +1,4 @@
+[uWC::Log][2024-07-04 12:28:02] Start
+[uWC::Err][2024-07-04 12:28:03] WindowTexture::RecreateSharedTextureIfNeeded => GetSharedHandle() failed.
+[uWC::Err][2024-07-04 12:31:26] GetStoreAppProcessId() => EnumChildWindows() failed with error code: 0
+[uWC::Log][2024-07-04 12:35:10] Stop
