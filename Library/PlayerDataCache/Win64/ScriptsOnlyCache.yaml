@@ -16,6 +16,10 @@ ScriptsOnlyBuild:
     - SimpleFileBrowser.NonDrawingGraphic
     - SimpleFileBrowser.RecycledListView
     - SimpleFileBrowser.UISkin
+    SimpleFileBrowser.Runtime.dll:
+    - SimpleFileBrowser.FileBrowserItem
+    - SimpleFileBrowser.FileBrowserQuickLink
+    - SimpleFileBrowser.UISkin
     SteamVR:
     - Valve.VR.SteamVR_Behaviour_Skeleton
     - Valve.VR.SteamVR_ExternalCamera
@@ -70,6 +74,10 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Text
     - UnityEngine.UI.Toggle
     - UnityEngine.UI.VerticalLayoutGroup
+    UnityEngine.UI.dll:
+    - UnityEngine.UI.Image
+    - UnityEngine.UI.Shadow
+    - UnityEngine.UI.Text
     UnityEngine.XR.LegacyInputHelpers.dll:
     - UnityEditor.XR.LegacyInputHelpers.CameraOffset
     uWindowCapture.Runtime.dll:

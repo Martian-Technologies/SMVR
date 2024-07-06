@@ -8,6 +8,7 @@ using System.IO;
 using Valve.VR;
 using UnityEditor;
 using SimpleFileBrowser;
+using System;
 public class FrameSwitcherooni : MonoBehaviour
 
 {
@@ -97,16 +98,15 @@ public class FrameSwitcherooni : MonoBehaviour
         Vector3 leftContPos = leftContObject.transform.position;
         Vector3 rightContRot = rightContObject.transform.localRotation.eulerAngles;
         Vector3 rightContPos = rightContObject.transform.position;
+        Quaternion headsetRotQuat = headsetObject.transform.rotation;
         Vector3[] orientData = {headsetRot, headsetPos,leftContRot,leftContPos,rightContRot,rightContPos};
         string orientString = "[";
         if (path != null){
             for (int i = 0; i <= 5; i++){
-                orientString = orientString + "[" + orientData[i].x.ToString()+","+ orientData[i].y.ToString()+","+ orientData[i].z.ToString() + "]";
-                if (i != 5){
-                     orientString = orientString + ",";
-                }
+                orientString = orientString + "[" + orientData[i].x.ToString()+","+ orientData[i].y.ToString()+","+ orientData[i].z.ToString() + "]"+ ",";
+                
             }
-            orientString = orientString + "]";
+            orientString =  orientString + "[" + headsetRotQuat.x.ToString()+","+ headsetRotQuat.y.ToString()+","+ headsetRotQuat.z.ToString() +","  +headsetRotQuat.w.ToString()+ "]" + "]";
             WriteString(orientString,path);
         }
     }
