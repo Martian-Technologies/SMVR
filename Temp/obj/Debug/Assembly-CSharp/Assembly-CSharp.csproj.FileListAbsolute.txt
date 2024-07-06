@@ -1,0 +1,3 @@
+C:\Users\micha\SMVR\Temp\obj\Debug\Assembly-CSharp\Assembly-CSharp.csproj.AssemblyReference.cache
+C:\Users\micha\SMVR\Temp\obj\Debug\Assembly-CSharp\Assembly-CSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\micha\SMVR\Temp\obj\Debug\Assembly-CSharp\Assembly-CSharp.csproj.CoreCompileInputs.cache

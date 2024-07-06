@@ -1,0 +1,195 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETStandard,Version=v2.1": {
+      "SimpleFileBrowser.Runtime/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/SimpleFileBrowser.Runtime.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SimpleFileBrowser.Runtime.dll": {}
+        }
+      },
+      "SteamVR/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "SteamVR_Windows_EditorHelper": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SteamVR.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SteamVR.dll": {}
+        }
+      },
+      "SteamVR_Editor/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "SteamVR": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SteamVR_Editor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SteamVR_Editor.dll": {}
+        }
+      },
+      "SteamVR_Input_Editor/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "SteamVR": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SteamVR_Input_Editor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SteamVR_Input_Editor.dll": {}
+        }
+      },
+      "SteamVR_Windows_EditorHelper/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/SteamVR_Windows_EditorHelper.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SteamVR_Windows_EditorHelper.dll": {}
+        }
+      },
+      "uWindowCapture.Runtime/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/uWindowCapture.Runtime.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/uWindowCapture.Runtime.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SimpleFileBrowser.Runtime/1.0.0": {
+      "type": "project",
+      "path": "SimpleFileBrowser.Runtime.csproj",
+      "msbuildProject": "SimpleFileBrowser.Runtime.csproj"
+    },
+    "SteamVR/1.0.0": {
+      "type": "project",
+      "path": "SteamVR.csproj",
+      "msbuildProject": "SteamVR.csproj"
+    },
+    "SteamVR_Editor/1.0.0": {
+      "type": "project",
+      "path": "SteamVR_Editor.csproj",
+      "msbuildProject": "SteamVR_Editor.csproj"
+    },
+    "SteamVR_Input_Editor/1.0.0": {
+      "type": "project",
+      "path": "SteamVR_Input_Editor.csproj",
+      "msbuildProject": "SteamVR_Input_Editor.csproj"
+    },
+    "SteamVR_Windows_EditorHelper/1.0.0": {
+      "type": "project",
+      "path": "SteamVR_Windows_EditorHelper.csproj",
+      "msbuildProject": "SteamVR_Windows_EditorHelper.csproj"
+    },
+    "uWindowCapture.Runtime/1.0.0": {
+      "type": "project",
+      "path": "uWindowCapture.Runtime.csproj",
+      "msbuildProject": "uWindowCapture.Runtime.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETStandard,Version=v2.1": [
+      "SimpleFileBrowser.Runtime >= 1.0.0",
+      "SteamVR >= 1.0.0",
+      "SteamVR_Editor >= 1.0.0",
+      "SteamVR_Input_Editor >= 1.0.0",
+      "SteamVR_Windows_EditorHelper >= 1.0.0",
+      "uWindowCapture.Runtime >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\micha\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "c:\\Users\\micha\\SMVR\\Assembly-CSharp.csproj",
+      "projectName": "Assembly-CSharp",
+      "projectPath": "c:\\Users\\micha\\SMVR\\Assembly-CSharp.csproj",
+      "packagesPath": "C:\\Users\\micha\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\micha\\SMVR\\Temp\\obj\\\\Assembly-CSharp\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\micha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netstandard2.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "projectReferences": {
+            "c:\\Users\\micha\\SMVR\\SimpleFileBrowser.Runtime.csproj": {
+              "projectPath": "c:\\Users\\micha\\SMVR\\SimpleFileBrowser.Runtime.csproj"
+            },
+            "c:\\Users\\micha\\SMVR\\SteamVR.csproj": {
+              "projectPath": "c:\\Users\\micha\\SMVR\\SteamVR.csproj"
+            },
+            "c:\\Users\\micha\\SMVR\\SteamVR_Editor.csproj": {
+              "projectPath": "c:\\Users\\micha\\SMVR\\SteamVR_Editor.csproj"
+            },
+            "c:\\Users\\micha\\SMVR\\SteamVR_Input_Editor.csproj": {
+              "projectPath": "c:\\Users\\micha\\SMVR\\SteamVR_Input_Editor.csproj"
+            },
+            "c:\\Users\\micha\\SMVR\\SteamVR_Windows_EditorHelper.csproj": {
+              "projectPath": "c:\\Users\\micha\\SMVR\\SteamVR_Windows_EditorHelper.csproj"
+            },
+            "c:\\Users\\micha\\SMVR\\uWindowCapture.Runtime.csproj": {
+              "projectPath": "c:\\Users\\micha\\SMVR\\uWindowCapture.Runtime.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netstandard2.1": {
+        "targetAlias": "netstandard2.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
